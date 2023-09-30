@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerSolution.Server", "Server\TaskManagerSolution.Server.csproj", "{17329090-0D87-4F36-BFDB-B34353E0F307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerSolution.Server", "Server\TaskManagerSolution.Server.csproj", "{17329090-0D87-4F36-BFDB-B34353E0F307}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerSolution.Client", "Client\TaskManagerSolution.Client.csproj", "{159C7D4A-73B4-4AD4-BFCE-C34E7189F822}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerSolution.Client", "Client\TaskManagerSolution.Client.csproj", "{159C7D4A-73B4-4AD4-BFCE-C34E7189F822}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerSolution.Shared", "Shared\TaskManagerSolution.Shared.csproj", "{3DB192AF-D1DE-42B9-90BD-0B01B5DA4A54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerSolution.Shared", "Shared\TaskManagerSolution.Shared.csproj", "{3DB192AF-D1DE-42B9-90BD-0B01B5DA4A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerSolution.Tests", "TaskManagerSolution.Tests\TaskManagerSolution.Tests.csproj", "{805E03EC-3109-4C2D-872F-10E92440134E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3DB192AF-D1DE-42B9-90BD-0B01B5DA4A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DB192AF-D1DE-42B9-90BD-0B01B5DA4A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DB192AF-D1DE-42B9-90BD-0B01B5DA4A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805E03EC-3109-4C2D-872F-10E92440134E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805E03EC-3109-4C2D-872F-10E92440134E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805E03EC-3109-4C2D-872F-10E92440134E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805E03EC-3109-4C2D-872F-10E92440134E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

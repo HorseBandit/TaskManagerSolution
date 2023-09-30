@@ -4,6 +4,182 @@
     "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\TaskManagerSolution.Tests\\TaskManagerSolution.Tests.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\TaskManagerSolution.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\TaskManagerSolution.Client.csproj",
+        "projectName": "TaskManagerSolution.Client",
+        "projectPath": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\TaskManagerSolution.Client.csproj",
+        "packagesPath": "C:\\Users\\Jerrod\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jerrod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Shared\\TaskManagerSolution.Shared.csproj": {
+                "projectPath": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Shared\\TaskManagerSolution.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.11, 7.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Server\\TaskManagerSolution.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Server\\TaskManagerSolution.Server.csproj",
+        "projectName": "TaskManagerSolution.Server",
+        "projectPath": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Server\\TaskManagerSolution.Server.csproj",
+        "packagesPath": "C:\\Users\\Jerrod\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jerrod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\TaskManagerSolution.Client.csproj": {
+                "projectPath": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\TaskManagerSolution.Client.csproj"
+              },
+              "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Shared\\TaskManagerSolution.Shared.csproj": {
+                "projectPath": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Shared\\TaskManagerSolution.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Shared\\TaskManagerSolution.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -43,6 +219,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +245,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -91,6 +277,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Server\\TaskManagerSolution.Server.csproj": {
+                "projectPath": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Server\\TaskManagerSolution.Server.csproj"
+              },
               "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Shared\\TaskManagerSolution.Shared.csproj": {
                 "projectPath": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Shared\\TaskManagerSolution.Shared.csproj"
               }
@@ -107,6 +296,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.0, )"
@@ -144,7 +341,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

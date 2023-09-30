@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kIzVDg0W7NOEfDd58TwmRbinO9pOKDsMRHsjBMl97QtExc3WgTzAY+EwLfrlaYsnDk/YkZVmWwM6DxMprC29NA==",
+  "dgSpecHash": "9MmH8+0DD8xRp5eVH+ylugd/cN1rzdmvi0fYNQyXlVvEu/q4o25/PS6K6fb9ENPkzksdTmIZa7vEmt/PFMtA2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\TaskManagerSolution.Client.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,12 @@
     "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.10\\microsoft.aspnetcore.components.webassembly.7.0.10.nupkg.sha512",
     "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\7.0.10\\microsoft.aspnetcore.components.webassembly.devserver.7.0.10.nupkg.sha512",
     "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.10\\microsoft.aspnetcore.metadata.7.0.10.nupkg.sha512",
+    "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
+    "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
+    "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.11\\microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
+    "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.11\\microsoft.entityframeworkcore.inmemory.7.0.11.nupkg.sha512",
+    "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
@@ -31,7 +37,7 @@
     "C:\\Users\\Jerrod\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\Jerrod\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Jerrod\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.10\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.10.nupkg.sha512"
+    "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.11.nupkg.sha512"
   ],
   "logs": []
 }
