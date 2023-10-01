@@ -3,7 +3,7 @@ using TaskManagerSolution.Server.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDatabase(builder.Configuration);
 // Add services to the container.
-
+builder.Services.AddIdentityConfiguration();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
