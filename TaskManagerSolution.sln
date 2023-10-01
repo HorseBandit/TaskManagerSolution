@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerSolution.Client"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerSolution.Shared", "Shared\TaskManagerSolution.Shared.csproj", "{3DB192AF-D1DE-42B9-90BD-0B01B5DA4A54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagerSolution.Tests", "TaskManagerSolution.Tests\TaskManagerSolution.Tests.csproj", "{805E03EC-3109-4C2D-872F-10E92440134E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManagerSolution.Tests", "TaskManagerSolution.Tests\TaskManagerSolution.Tests.csproj", "{805E03EC-3109-4C2D-872F-10E92440134E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

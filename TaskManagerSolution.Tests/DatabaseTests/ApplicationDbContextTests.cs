@@ -17,7 +17,7 @@ namespace TaskManagerSolution.Tests.DatabaseTests
         }
 
         [Fact]
-        public void CanAddUser()
+        public async Task CanAddUser()
         {
             // Arrange
             var user = new User { Username = "testUser", Email = "test@email.com" };
@@ -26,14 +26,15 @@ namespace TaskManagerSolution.Tests.DatabaseTests
             using (var context = new ApplicationDbContext(_options))
             {
                 context.Users.Add(user);
-                context.SaveChanges();
+                await context.SaveChangesAsync();
             }
 
             // Assert
             using (var context = new ApplicationDbContext(_options))
             {
                 Assert.Single(context.Users);
-                Assert.Equal("testUser", context.Users.FirstAsync().Result.Username);
+                var firstUser = await context.Users.FirstAsync();
+                Assert.Equal("testUser", firstUser.Username);
             }
         }
     }

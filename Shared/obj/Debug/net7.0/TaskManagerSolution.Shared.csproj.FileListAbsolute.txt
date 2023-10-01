@@ -1,0 +1,12 @@
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\bin\Debug\net7.0\TaskManagerSolution.Shared.deps.json
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\bin\Debug\net7.0\TaskManagerSolution.Shared.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\bin\Debug\net7.0\TaskManagerSolution.Shared.pdb
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\obj\Debug\net7.0\TaskManagerSolution.Shared.csproj.AssemblyReference.cache
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\obj\Debug\net7.0\TaskManagerSolution.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\obj\Debug\net7.0\TaskManagerSolution.Shared.AssemblyInfoInputs.cache
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\obj\Debug\net7.0\TaskManagerSolution.Shared.AssemblyInfo.cs
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\obj\Debug\net7.0\TaskManagerSolution.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\obj\Debug\net7.0\TaskManagerSolution.Shared.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\obj\Debug\net7.0\refint\TaskManagerSolution.Shared.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\obj\Debug\net7.0\TaskManagerSolution.Shared.pdb
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Shared\obj\Debug\net7.0\ref\TaskManagerSolution.Shared.dll

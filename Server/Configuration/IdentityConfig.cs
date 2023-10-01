@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using TaskManagerSolution.Server.Data;
-using TaskManagerSolution.Server.Models;
 using TaskManagerSolution.Shared.Models; // Make sure this matches the namespace of your ApplicationUser
 
 namespace TaskManagerSolution.Server.Configuration

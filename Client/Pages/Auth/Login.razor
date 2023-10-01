@@ -1,0 +1,52 @@
+﻿@page "/login"
+@using TaskManagerSolution.Shared.Models;
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+
+<h3>Login</h3>
+
+@if (ShowError)
+{
+    <div class="alert alert-danger">@ErrorMessage</div>
+}
+
+<form @onsubmit="LoginUser">
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input @bind="loginModel.Username" type="text" class="form-control" id="username" />
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input @bind="loginModel.Password" type="password" class="form-control" id="password" />
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+    private string ErrorMessage { get; set; }
+    private bool ShowError => !string.IsNullOrEmpty(ErrorMessage);
+
+    private async Task LoginUser()
+    {
+        var response = await HttpClient.PostAsJsonAsync("api/Account/Login", loginModel);
+        if (response.IsSuccessStatusCode)
+        {
+            // Deserialize the token and store it
+            var content = await response.Content.ReadFromJsonAsync<TokenResponse>();
+            // Store content.Token somewhere safe, like a Blazor service or in local storage
+            NavigationManager.NavigateTo("/"); // Redirect to home page or a dashboard
+        }
+        else
+        {
+            ErrorMessage = "Invalid username or password";
+        }
+    }
+
+    public class LoginModel
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+    }
+}
+

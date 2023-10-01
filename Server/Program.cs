@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDatabase(builder.Configuration);
 builder.Services.AddIdentityConfiguration();
 // Add services to the container.
-builder.Services.AddIdentityConfiguration();
+// builder.Services.AddIdentityConfiguration();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 

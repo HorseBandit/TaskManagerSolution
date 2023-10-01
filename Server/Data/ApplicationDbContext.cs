@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using TaskManagerSolution.Server.Models;
 using TaskManagerSolution.Shared.Models;
 
 namespace TaskManagerSolution.Server.Data
