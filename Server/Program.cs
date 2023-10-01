@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.ResponseCompression;
 using TaskManagerSolution.Server.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDatabase(builder.Configuration);
+builder.Services.AddIdentityConfiguration();
 // Add services to the container.
 builder.Services.AddIdentityConfiguration();
 builder.Services.AddControllersWithViews();
