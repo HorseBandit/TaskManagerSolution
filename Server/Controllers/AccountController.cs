@@ -17,6 +17,8 @@ public class AccountController : ControllerBase
     [HttpPost("Register")]
     public async Task<IActionResult> Register(RegisterModel model)
     {
+        Console.WriteLine($"Received model: Username={model.Username}, Email={model.Email}, Password={model.Password}");
+
         var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
         var result = await _userManager.CreateAsync(user, model.Password);
 
@@ -26,6 +28,10 @@ public class AccountController : ControllerBase
         }
         else
         {
+            foreach (var error in result.Errors)
+            {
+                Console.WriteLine($"Error: {error.Description}");
+            }
             return BadRequest(result.Errors);
         }
     }
@@ -42,5 +48,4 @@ public class AccountController : ControllerBase
         }
         return Unauthorized();
     }
-
 }

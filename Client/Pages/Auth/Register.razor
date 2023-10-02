@@ -1,13 +1,18 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using TaskManagerSolution.Shared.Models
 @inject HttpClient HttpClient
-
-@inject UserManager<ApplicationUser> UserManager
 @inject NavigationManager NavigationManager
 
 @page "/register"
 
 <h3>Register</h3>
+@if (ShowError)
+{
+    <div class="alert alert-danger">
+        @ErrorMessage
+    </div>
+}
+
 <form @onsubmit="RegisterUser">
     <div class="form-group">
         <label for="username">Username</label>
@@ -26,28 +31,47 @@
 
 @code {
     private RegisterModel model = new RegisterModel();
-    private RegisterModel Input = new RegisterModel();
     private string ErrorMessage { get; set; }
     private bool ShowError => !string.IsNullOrEmpty(ErrorMessage);
+
     private async Task RegisterUser()
     {
-        var response = await HttpClient.PostAsJsonAsync("api/Account/Register", model);
+        HttpResponseMessage response = null;
+        try
+        {
+            response = await HttpClient.PostAsJsonAsync("api/Account/Register", model);
+        }
+        catch (Exception e)
+        {
+            ErrorMessage = "An unknown error occurred while registering.";
+            return;
+        }
 
         if (response.IsSuccessStatusCode)
         {
-            NavigationManager.NavigateTo("/login"); // or wherever you want to redirect after a successful registration
+            // Indicate success
+            ErrorMessage = "Registration successful!";
+            NavigationManager.NavigateTo("/login");
         }
         else
         {
-            ErrorMessage = "There was an error registering the user.";
+            // Try to get additional error details from the response
+            var errorDetails = await response.Content.ReadFromJsonAsync<List<IdentityError>>();
+            if (errorDetails != null && errorDetails.Count > 0)
+            {
+                ErrorMessage = string.Join("\n", errorDetails.Select(e => e.Description));
+            }
+            else
+            {
+                ErrorMessage = "There was an error registering the user.";
+
+                // Debugging lines
+                Console.WriteLine("ShowError: " + ShowError);
+                Console.WriteLine("ErrorMessage: " + ErrorMessage);
+            }
+            // Refresh the component
+            StateHasChanged();
         }
     }
-
-
-    public class RegisterModel
-    {
-        public string Username { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-    }
 }
+
