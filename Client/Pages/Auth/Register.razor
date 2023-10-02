@@ -1,4 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Identity
+@using System.Text.Json;
 @using TaskManagerSolution.Shared.Models
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
@@ -36,41 +37,35 @@
 
     private async Task RegisterUser()
     {
-        HttpResponseMessage response = null;
+        Console.WriteLine("RegisterUser called");
+
         try
         {
-            response = await HttpClient.PostAsJsonAsync("api/Account/Register", model);
-        }
-        catch (Exception e)
-        {
-            ErrorMessage = "An unknown error occurred while registering.";
-            return;
-        }
+            var response = await HttpClient.PostAsJsonAsync("api/Account/Register", model);
+            var responseData = await response.Content.ReadAsStringAsync();
 
-        if (response.IsSuccessStatusCode)
-        {
-            // Indicate success
-            ErrorMessage = "Registration successful!";
-            NavigationManager.NavigateTo("/login");
-        }
-        else
-        {
-            // Try to get additional error details from the response
-            var errorDetails = await response.Content.ReadFromJsonAsync<List<IdentityError>>();
-            if (errorDetails != null && errorDetails.Count > 0)
+            Console.WriteLine("Received Data: " + responseData); // Log received data
+
+            if (response.IsSuccessStatusCode)
             {
-                ErrorMessage = string.Join("\n", errorDetails.Select(e => e.Description));
+                // Indicate success
+                ErrorMessage = "Registration successful!";
+                // Navigate or provide an option to go to the next step
+                NavigationManager.NavigateTo("/login");
             }
             else
             {
-                ErrorMessage = "There was an error registering the user.";
-
-                // Debugging lines
-                Console.WriteLine("ShowError: " + ShowError);
-                Console.WriteLine("ErrorMessage: " + ErrorMessage);
+                // Deserialize the errors here
+                var errors = JsonSerializer.Deserialize<List<IdentityError>>(responseData);
+                // Join the errors into a single string message
+                ErrorMessage = string.Join(", ", errors.Select(e => e.Description));
             }
-            // Refresh the component
-            StateHasChanged();
+        }
+        catch (JsonException jsonException)
+        {
+            // Log JSON errors
+            Console.WriteLine("JSON Error: " + jsonException.Message);
+            ErrorMessage = "There was a problem processing your request.";
         }
     }
 }

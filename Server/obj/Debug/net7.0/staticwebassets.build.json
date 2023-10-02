@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hdPMoqXwECYQjbbqYL2Qc96s/HdePdq1385fsRK3PkM=",
+  "Hash": "6MBX919PVQv8vWWzbcyaYLr97uI+jFNTMgc180oToAk=",
   "Source": "TaskManagerSolution.Server",
   "BasePath": "_content/TaskManagerSolution.Server",
   "Mode": "Default",
@@ -146,6 +146,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.11\\runtimes\\browser-wasm\\native\\dotnet.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Humanizer.dll",
+      "SourceId": "TaskManagerSolution.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Humanizer.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Jerrod\\.nuget\\packages\\humanizer.core\\2.14.1\\lib\\net6.0\\Humanizer.dll"
     },
     {
       "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat",
@@ -437,6 +454,23 @@
       "OriginalItemSpec": "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Abstractions.dll"
     },
     {
+      "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Design.dll",
+      "SourceId": "TaskManagerSolution.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Design.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.11\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Design.dll"
+    },
+    {
       "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.dll",
       "SourceId": "TaskManagerSolution.Client",
       "SourceType": "Project",
@@ -656,6 +690,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyModel.dll",
+      "SourceId": "TaskManagerSolution.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyModel.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.DependencyModel.dll"
     },
     {
       "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -1083,6 +1134,23 @@
       "OriginalItemSpec": "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\lib\\net6.0\\Microsoft.Win32.SystemEvents.dll"
     },
     {
+      "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Mono.TextTemplating.dll",
+      "SourceId": "TaskManagerSolution.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Mono.TextTemplating.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Jerrod\\.nuget\\packages\\mono.texttemplating\\2.2.1\\lib\\netstandard2.0\\Mono.TextTemplating.dll"
+    },
+    {
       "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\mscorlib.dll",
       "SourceId": "TaskManagerSolution.Client",
       "SourceType": "Project",
@@ -1149,6 +1217,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jerrod\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.11\\runtimes\\browser-wasm\\lib\\net7.0\\System.Buffers.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.CodeDom.dll",
+      "SourceId": "TaskManagerSolution.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.CodeDom.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Jerrod\\.nuget\\packages\\system.codedom\\4.4.0\\lib\\netstandard2.0\\System.CodeDom.dll"
     },
     {
       "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Collections.Concurrent.dll",
@@ -5163,6 +5248,23 @@
       "OriginalItemSpec": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat"
     },
     {
+      "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\Debug\\net7.0\\build-gz\\C1PU1ZS3.gz",
+      "SourceId": "TaskManagerSolution.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Humanizer.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Humanizer.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Humanizer.dll"
+    },
+    {
       "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\Debug\\net7.0\\build-gz\\cdaBs+Z6.gz",
       "SourceId": "TaskManagerSolution.Client",
       "SourceType": "Project",
@@ -5365,6 +5467,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.IdentityModel.Protocols.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\Debug\\net7.0\\build-gz\\dnL+GRLi.gz",
+      "SourceId": "TaskManagerSolution.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.CodeDom.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.CodeDom.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.CodeDom.dll"
     },
     {
       "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\Debug\\net7.0\\build-gz\\dQ17kXI5.gz",
@@ -5586,6 +5705,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\dotnet.7.0.11.fd4p5noci0.js"
+    },
+    {
+      "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\Debug\\net7.0\\build-gz\\FKjIaZaA.gz",
+      "SourceId": "TaskManagerSolution.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Design.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Design.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Design.dll"
     },
     {
       "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\Debug\\net7.0\\build-gz\\FXYVQv49.gz",
@@ -7254,6 +7390,23 @@
       "OriginalItemSpec": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.dll"
     },
     {
+      "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\Debug\\net7.0\\build-gz\\TWd4pgXD.gz",
+      "SourceId": "TaskManagerSolution.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Mono.TextTemplating.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Mono.TextTemplating.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Mono.TextTemplating.dll"
+    },
+    {
       "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\Debug\\net7.0\\build-gz\\uagzHV1X.gz",
       "SourceId": "TaskManagerSolution.Client",
       "SourceType": "Project",
@@ -7320,6 +7473,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.AppContext.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\Debug\\net7.0\\build-gz\\uH50ncrL.gz",
+      "SourceId": "TaskManagerSolution.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyModel.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyModel.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "false",
+      "OriginalItemSpec": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyModel.dll"
     },
     {
       "Identity": "C:\\Users\\Jerrod\\source\\repos\\Personal\\TaskManagerWebDev\\TaskManagerSolution\\Client\\obj\\Debug\\net7.0\\build-gz\\uJS+dgvv.gz",

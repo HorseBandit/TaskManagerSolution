@@ -6,6 +6,7 @@ namespace TaskManagerSolution.Server.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<UserCredentials> UserCredentials { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<TaskToDo> Tasks { get; set; }
         public DbSet<Squad> Squads { get; set; }

@@ -17,6 +17,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Serv
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\TaskManagerSolution.Server.pdb
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Humanizer.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -31,10 +32,12 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Serv
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
@@ -51,6 +54,9 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Serv
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

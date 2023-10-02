@@ -5,10 +5,11 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.11.fd4p5noci0.js
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm
-C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\icudt.dat
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Humanizer.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\icudt.dat
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
@@ -22,6 +23,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.CSharp.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Data.SqlClient.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Relational.dll
@@ -35,6 +37,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
@@ -60,10 +63,12 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Win32.SystemEvents.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Mono.TextTemplating.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\mscorlib.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\netstandard.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Buffers.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.CodeDom.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Concurrent.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Collections.Immutable.dll
@@ -300,6 +305,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.Local.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Formats.Tar.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\icudt.dat.gz
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Humanizer.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\TaskManagerSolution.Shared.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
@@ -312,6 +318,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.SecureString.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.ProtectedData.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.IdentityModel.Protocols.dll.gz
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.CodeDom.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Caching.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
@@ -325,6 +332,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Memory.Data.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.11.fd4p5noci0.js.gz
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Design.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
@@ -423,10 +431,12 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Drawing.Common.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\TaskManagerSolution.Client.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Mono.TextTemplating.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.IdentityModel.Tokens.Jwt.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.AppContext.dll.gz
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.DependencyModel.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.EntityFrameworkCore.Abstractions.dll.gz
@@ -478,6 +488,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\TaskManagerSolution.Client.pdb
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Humanizer.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -491,6 +502,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -503,6 +515,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
@@ -524,6 +537,8 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
@@ -718,6 +733,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\TaskManagerSolution.Client.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\pIqtTXQd.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\SlqtQv2o.gz
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\C1PU1ZS3.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\IZammY+b.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\eRToF1tZ.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\HqQ+GyNY.gz
@@ -731,6 +747,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\8j7nNANX.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\kHXIATNj.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\UK04LwXm.gz
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\FKjIaZaA.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\zEkF+4Zs.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\aaHd3miF.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\pQm8FxOj.gz
@@ -743,6 +760,7 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\ndlJmLnA.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\Mp9mcYUs.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\EiXe+NMp.gz
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\uH50ncrL.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\ZNCphJWO.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\45yeyHFx.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\i2dd8w+Q.gz
@@ -764,6 +782,8 @@ C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Clie
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\z7RIROkI.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\IvlVmyC4.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\LhmcR1TO.gz
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\TWd4pgXD.gz
+C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\dnL+GRLi.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\dDehtE4n.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\TOuXjFFD.gz
 C:\Users\Jerrod\source\repos\Personal\TaskManagerWebDev\TaskManagerSolution\Client\obj\Debug\net7.0\build-gz\ue5aWopO.gz
