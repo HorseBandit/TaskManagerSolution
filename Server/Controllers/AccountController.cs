@@ -21,6 +21,27 @@ public class AccountController : ControllerBase
         Console.WriteLine("Connection String: " + connStr);
     }
 
+    [HttpGet("TestInsert")]
+    public async Task<IActionResult> TestInsert()
+    {
+        // Your SQL query code here
+
+        // Example:
+        var userId = 1;
+        var username = "testUsername";
+        var email = "testEmail@example.com";
+        var passwordHash = "hashedPassword";
+        var salt = "salt";
+
+        var result = await _context.Database.ExecuteSqlRawAsync(
+            "INSERT INTO dbo.UserCredentials (UserId, Username, Email, PasswordHash, Salt) VALUES (@p0, @p1, @p2, CONVERT(varbinary(max), @p3), CONVERT(varbinary(max), @p4))",
+            userId, username, email, passwordHash, salt
+        );
+
+
+        return Ok($"SQL query result: {result}");
+    }
+
     // In your AccountController on the server
     [HttpPost("Login")]
     public async Task<IActionResult> Login(LoginModel model)
@@ -36,42 +57,59 @@ public class AccountController : ControllerBase
     [HttpPost("Register")]
     public async Task<IActionResult> Register(RegisterModel model)
     {
-        // TODO: Validate the model
+        // Validate the model
         if (!ModelState.IsValid)
         {
             return BadRequest("Invalid model");
         }
 
-        // TODO: Generate a salt and hash the password
+        // Generate a salt and hash the password
         var salt = GenerateSalt();
         var hashedPassword = HashPassword(model.Password, salt);
 
-        // TODO: Create the user
-        var user = new User
+        try
         {
-            Username = model.Username,
-            Email = model.Email
-        };
+            // Create the user
+            var user = new User
+            {
+                Username = model.Username,
+                Email = model.Email
+            };
 
-        // Add to Users table
-        _context.Users.Add(user);
-        await _context.SaveChangesAsync();
+            // Add to Users table
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
 
-        // Create user credentials
-        var userCredential = new UserCredentials
+            // Create user credentials
+            var userCredential = new UserCredentials
+            {
+                UserId = user.Id,
+                Username = user.Username,
+                Email = user.Email,
+                PasswordHash = hashedPassword,
+                Salt = salt
+            };
+
+            // Add to UserCredentials table
+            _context.UserCredentials.Add(userCredential);
+            int affectedRows = await _context.SaveChangesAsync();
+
+            if (affectedRows > 0)
+            {
+                Console.WriteLine("Insert operation successful");
+                return Ok(new { Message = "Insert operation successful" });
+            }
+            else
+            {
+                Console.WriteLine("Insert operation failed");
+                return BadRequest(new { Message = "Insert operation failed" });
+            }
+        }
+        catch (Exception ex)
         {
-            UserId = user.Id,
-            Username = user.Username,
-            Email = user.Email,
-            PasswordHash = hashedPassword,
-            Salt = salt
-        };
-
-        // Add to UserCredentials table
-        _context.UserCredentials.Add(userCredential);
-        await _context.SaveChangesAsync();
-
-        return Ok(new { Message = "Registration successful" });
+            Console.WriteLine($"An error occurred: {ex.Message}");
+            return StatusCode(500, "Internal server error");
+        }
     }
     private byte[] GenerateSalt()
     {
